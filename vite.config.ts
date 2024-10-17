@@ -1,4 +1,5 @@
 import viteImagemin from 'vite-plugin-imagemin';
+import path from 'path';
 
 export default () => {
   return {
@@ -31,5 +32,13 @@ export default () => {
         },
       }),
     ],
+    build: {
+      rollupOptions: {
+        input: {
+          main: path.resolve(__dirname, 'index.html'),
+          thanksPage: path.resolve(__dirname, 'thank-you-page.html'),
+        },
+      },
+    },
   };
 };

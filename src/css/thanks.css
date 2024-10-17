@@ -1,3 +1,15 @@
+@keyframes pulseScale {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.07;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
 .thanks-section {
   background-image: url(../img/thanks-page/background-1x.jpg);
   background-repeat: no-repeat;
@@ -69,4 +81,6 @@
 
   border-radius: 70px;
   background: linear-gradient(90deg, #3e75e5 0%, #62a1ff 50%, #3e75e5 100%);
+
+  animation: pulseScale 2000ms infinite;
 }

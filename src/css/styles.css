@@ -60,6 +60,15 @@
   content: '●';
   margin-right: 4px;
   font-size: 20px;
+  filter: drop-shadow(0px 0px 5px rgba(255, 214, 118, 0.4));
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .header-practicum::before {
+    font-size: 12px;
+  }
 }
 
 .header-info-container {
@@ -156,8 +165,8 @@
 
   padding: 16px 20px;
   border-radius: 20px;
-  border: 1px solid #fff;
-  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid #ffffff6c;
+  background: rgba(255, 255, 255, 0.116);
   backdrop-filter: blur(15px);
 
   max-width: 218px;
@@ -831,7 +840,7 @@
   background-size: cover;
   background-position: center;
 
-  max-width: 428px;
+  max-width: 430px;
   margin: 0 auto;
 }
 
@@ -1239,7 +1248,7 @@
 }
 
 .possible-wrapper {
-  padding: 10px 15px;
+  padding: 10px;
   border-radius: 5px;
   border: 1px solid #638aed;
 
@@ -1354,6 +1363,8 @@
 .results {
   max-width: 430px;
   margin: 0 auto;
+
+  padding-bottom: 50px;
 
   background-image: url(../img/results/background-1x.jpg);
   background-repeat: no-repeat;

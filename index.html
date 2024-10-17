@@ -108,7 +108,11 @@
         </ul>
         <p class="header-price"><span>3770грн</span> 377 грн</p>
         <div class="header-button-container">
-          <a class="header-button link" href="" target="_blank" rel="nofollow"
+          <a
+            class="header-button link"
+            href="https://secure.wayforpay.com/button/b92942755b54f"
+            target="_blank"
+            rel="nofollow"
             >приєднатися</a
           >
           <div class="header-sale-mark">
@@ -235,7 +239,11 @@
             </div>
           </div>
           <div class="header-button-container">
-            <a class="header-button link" href="" target="_blank" rel="nofollow"
+            <a
+              class="header-button link"
+              href="https://secure.wayforpay.com/button/b92942755b54f"
+              target="_blank"
+              rel="nofollow"
               >приєднатися</a
             >
             <div class="header-sale-mark">
@@ -709,7 +717,7 @@
               </li>
             </ul>
             <div class="practicum-button-container">
-              <a class="practicum-button" href="" target="_blank" rel="nofollow"
+              <a class="practicum-button" href="#buy" data-scroll
                 >приєднатися</a
               >
               <div class="practicum-sale-mark">
@@ -856,11 +864,7 @@
               </div>
             </div>
             <div class="header-button-container">
-              <a
-                class="header-button link"
-                href=""
-                target="_blank"
-                rel="nofollow"
+              <a class="header-button link" href="#buy" data-scroll
                 >приєднатися</a
               >
               <div class="header-sale-mark">
@@ -1215,7 +1219,12 @@
             <div class="swiper-pagination"></div>
           </div>
           <div class="practicum-button-container">
-            <a class="practicum-button" href="" target="_blank" rel="nofollow"
+            <a
+              class="practicum-button"
+              href="#buy"
+              data-scroll
+              target="_blank"
+              rel="nofollow"
               >Отримати такі ж результати!</a
             >
             <div class="practicum-sale-mark">
@@ -1244,7 +1253,7 @@
               <h2 class="result-garant-title">Гарантія</h2>
               <p class="result-garant-subtitle">результату</p>
             </div>
-            <p class="result-garant-desc">
+            <p class="result-garant-desc" id="buy">
               Ми впевнені в ефективності цього практикуму.
               <span>Якщо ви виконаєте всі вправи</span> і не отримаєте
               <span>нового розуміння про себе</span> та про причини ваших
@@ -1255,7 +1264,11 @@
               прорив у своєму житті та доходах, або повертаєте гроші
             </p>
             <div class="practicum-button-container">
-              <a class="practicum-button" href="" target="_blank" rel="nofollow"
+              <a
+                class="practicum-button"
+                href="https://secure.wayforpay.com/button/b92942755b54f"
+                target="_blank"
+                rel="nofollow"
                 >Приєднатись з гарантією</a
               >
               <div class="practicum-sale-mark right">
@@ -1614,9 +1627,7 @@
             </ul>
           </div>
           <div class="practicum-button-container">
-            <a class="practicum-button" href="" target="_blank" rel="nofollow"
-              >приєднатися</a
-            >
+            <a class="practicum-button" href="#buy" data-scroll>приєднатися</a>
             <div class="practicum-sale-mark right">
               <picture
                 ><source
@@ -1716,5 +1727,10 @@
     <script src="./src/js/timer.js" type="module"></script>
     <script src="./src/js/swiper.js" type="module"></script>
     <script src="./src/js/questions.js" type="module"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 300,
+      });
+    </script>
   </body>
 </html>

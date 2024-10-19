@@ -108,13 +108,9 @@
         </ul>
         <p class="header-price"><span>3770грн</span> 377 грн</p>
         <div class="header-button-container">
-          <a
-            class="header-button link"
-            href="https://secure.wayforpay.com/button/b92942755b54f"
-            target="_blank"
-            rel="nofollow"
-            >приєднатися</a
-          >
+          <button class="header-button link" type="button" data-modal-open>
+            приєднатися
+          </button>
           <div class="header-sale-mark">
             <picture
               ><source
@@ -239,13 +235,9 @@
             </div>
           </div>
           <div class="header-button-container">
-            <a
-              class="header-button link"
-              href="https://secure.wayforpay.com/button/b92942755b54f"
-              target="_blank"
-              rel="nofollow"
-              >приєднатися</a
-            >
+            <button class="header-button link" type="button" data-modal-open>
+              приєднатися
+            </button>
             <div class="header-sale-mark">
               <picture
                 ><source
@@ -717,9 +709,9 @@
               </li>
             </ul>
             <div class="practicum-button-container">
-              <a class="practicum-button" href="#buy" data-scroll
-                >приєднатися</a
-              >
+              <button class="practicum-button" type="button" data-modal-open>
+                приєднатися
+              </button>
               <div class="practicum-sale-mark">
                 <picture
                   ><source
@@ -867,9 +859,9 @@
               </div>
             </div>
             <div class="header-button-container">
-              <a class="header-button link" href="#buy" data-scroll
-                >приєднатися</a
-              >
+              <button class="header-button link" type="button" data-modal-open>
+                приєднатися
+              </button>
               <div class="header-sale-mark">
                 <picture
                   ><source
@@ -1222,14 +1214,9 @@
             <div class="swiper-pagination"></div>
           </div>
           <div class="practicum-button-container">
-            <a
-              class="practicum-button"
-              href="#buy"
-              data-scroll
-              target="_blank"
-              rel="nofollow"
-              >Отримати такі ж результати!</a
-            >
+            <button class="practicum-button" type="button" data-modal-open>
+              Отримати такі ж результати!
+            </button>
             <div class="practicum-sale-mark">
               <picture
                 ><source
@@ -1267,13 +1254,9 @@
               прорив у своєму житті та доходах, або повертаєте гроші
             </p>
             <div class="practicum-button-container">
-              <a
-                class="practicum-button"
-                href="https://secure.wayforpay.com/button/b92942755b54f"
-                target="_blank"
-                rel="nofollow"
-                >Приєднатись з гарантією</a
-              >
+              <button class="practicum-button" type="button" data-modal-open>
+                Приєднатись з гарантією
+              </button>
               <div class="practicum-sale-mark right">
                 <picture
                   ><source
@@ -1630,7 +1613,9 @@
             </ul>
           </div>
           <div class="practicum-button-container">
-            <a class="practicum-button" href="#buy" data-scroll>приєднатися</a>
+            <button class="practicum-button" type="button" data-modal-open>
+              приєднатися
+            </button>
             <div class="practicum-sale-mark right">
               <picture
                 ><source
@@ -1726,14 +1711,27 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-button" data-modal-close>
+          <img
+            src="./src/img/close-modal-icon.svg"
+            width="40"
+            height="40"
+            alt="close"
+          />
+        </button>
+        <div id="kwiga-widget-1729323493000"></div>
+      </div>
+    </div>
+    <script src="./src/js/js-modal.js" type="module"></script>
     <script src="./src/js/changeDate.js" type="module"></script>
     <script src="./src/js/timer.js" type="module"></script>
     <script src="./src/js/swiper.js" type="module"></script>
     <script src="./src/js/questions.js" type="module"></script>
-    <script>
-      var scroll = new SmoothScroll('a[href*="#"]', {
-        speed: 300,
-      });
-    </script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1729323493000&uuid=7eeda9f3-3427-4cf9-b113-d9eb69eefb42&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>

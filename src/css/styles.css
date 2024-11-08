@@ -302,7 +302,7 @@
 
 .bonuses {
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .bonuses-wrapper {
@@ -314,7 +314,7 @@
   backdrop-filter: blur(12.5px);
 
   max-width: 255px;
-  margin: 0 auto 40px auto;
+  margin: 0 auto 10px auto;
 }
 
 .bonuses-wrapper .bonuses-title {
@@ -505,10 +505,6 @@
 }
 
 /*  */
-
-#countdown-one {
-  margin-bottom: 15px;
-}
 
 /* about-author */
 
@@ -1042,6 +1038,9 @@
 
 .practicum-button-container {
   position: relative;
+
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 .practicum-button {
